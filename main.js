@@ -1,42 +1,4 @@
-//ejercicio 1
-/*
-let numero = prompt('ingrese un numero');
-
-if (numero % 2 === 0) {
-    console.log(numero + " es par");
-} else {
-    console.log(numero + " es impar");
-}
-*/
-/*
-//ejercicio 2
-
-let persona = {
-    Nombre: prompt('ingresa tu nombre'),
-    Apellido: prompt('ingresa tu apellido'),
-    Edad: prompt('ingresa tu edad'),
-    Cedula: prompt('ingresa tu cedula'),
-    Nacionalidad: prompt('ingresa tu nacionalidad'),
-    Profesion: prompt('ingresa tu profesión'),
-    EstadoCivil: prompt('ingresa tu estado civil'),
-    Hobbies: ['Leer', 'Caminar', 'Escuchar música']
-};
-
-if (persona.Profesion === 'Programador') {
-    persona.LenguajeFavorito = 'JavaScript';
-}
-
-if (persona.EstadoCivil === 'Soltero') {
-    console.log('usted se encuentra soltero');
-}
-
-persona.NombreCompleto = persona.Nombre + ' ' + persona.Apellido;
-
-console.log(persona.NombreCompleto);
-console.log(persona);
-
-*/
-//ejercicio 3
+//ejercicio 3 --- notas en letras
 
 let estudiante = {
     nombre:prompt('ingrese su nombre'),
