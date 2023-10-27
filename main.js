@@ -46,19 +46,6 @@ if(numero <= 1){
     console.log('es primo');
 }
 
-//Calculadora factorial
-
-function factorial(num){
-    if (num < 0){ 
-        return -1;
-    }else if(num == 0){
-      return 1;
-    }else{
-      return (num * factorial(num - 1));
-    }
-}
-console.log(factorial(7));
-
 /* Ejercicios para practicar */
 /*
 1) Crea una función para obtener el factorial de un numero.
@@ -72,6 +59,19 @@ console.log(factorial(7));
    * Convertir la frase en un array de palabras y ordenarlas alfabéticamente.
    * Convertir toda la frase en Mayúsculas.
 */
+
+//1
+
+function factorial(num){
+    if (num < 0){ 
+        return -1;
+    }else if(num == 0){
+      return 1;
+    }else{
+      return (num * factorial(num - 1));
+    }
+}
+console.log(factorial(7));
 
 //2
 let frutas = ['Banana', 'Naranja', 'Manzana', 'Melon']
