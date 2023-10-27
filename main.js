@@ -32,20 +32,6 @@ if(estudiante.edad >= 18 && estudiante.ResultadoFinal >= 10){
     console.log('Estas desaprobado');
 } */
 
-//Detector de numeros primos
-
-let numero = 19
-
-if(numero <= 1){
-    console.log('no es primo');
-}else if(numero === 2 || numero === 3 || numero === 5 || numero === 7){
-    console.log('es primo');
-}else if(numero % 2 === 0 || numero % 3 === 0 ||numero % 5 === 0 || numero % 7 === 0){
-    console.log('no es primo');
-}else{
-    console.log('es primo');
-}
-
 /* Ejercicios para practicar */
 /*
 1) Crea una función para obtener el factorial de un numero.
@@ -64,14 +50,14 @@ if(numero <= 1){
 
 function factorial(num){
     if (num < 0){ 
-        return -1;
+        return console.log('Un numero negativo no puede tener factorial');;
     }else if(num == 0){
       return 1;
     }else{
       return (num * factorial(num - 1));
     }
 }
-console.log(factorial(7));
+console.log(factorial(5));
 
 //2
 let frutas = ['Banana', 'Naranja', 'Manzana', 'Melon']
